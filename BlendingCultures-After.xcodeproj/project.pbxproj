@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D27320501C8B102700E8E5E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273204F1C8B102700E8E5E9 /* AppDelegate.swift */; };
+		D27320521C8B102700E8E5E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27320511C8B102700E8E5E9 /* ViewController.swift */; };
+		D27320551C8B102700E8E5E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27320531C8B102700E8E5E9 /* Main.storyboard */; };
+		D27320571C8B102700E8E5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27320561C8B102700E8E5E9 /* Assets.xcassets */; };
+		D273205A1C8B102700E8E5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27320581C8B102700E8E5E9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D273204C1C8B102700E8E5E9 /* BlendingCultures-After.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlendingCultures-After.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D273204F1C8B102700E8E5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D27320511C8B102700E8E5E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D27320541C8B102700E8E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D27320561C8B102700E8E5E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D27320591C8B102700E8E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D273205B1C8B102700E8E5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27320491C8B102700E8E5E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D27320431C8B102700E8E5E9 = {
+			isa = PBXGroup;
+			children = (
+				D273204E1C8B102700E8E5E9 /* BlendingCultures-After */,
+				D273204D1C8B102700E8E5E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D273204D1C8B102700E8E5E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D273204C1C8B102700E8E5E9 /* BlendingCultures-After.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D273204E1C8B102700E8E5E9 /* BlendingCultures-After */ = {
+			isa = PBXGroup;
+			children = (
+				D273204F1C8B102700E8E5E9 /* AppDelegate.swift */,
+				D27320511C8B102700E8E5E9 /* ViewController.swift */,
+				D27320531C8B102700E8E5E9 /* Main.storyboard */,
+				D27320561C8B102700E8E5E9 /* Assets.xcassets */,
+				D27320581C8B102700E8E5E9 /* LaunchScreen.storyboard */,
+				D273205B1C8B102700E8E5E9 /* Info.plist */,
+			);
+			path = "BlendingCultures-After";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D273204B1C8B102700E8E5E9 /* BlendingCultures-After */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D273205E1C8B102700E8E5E9 /* Build configuration list for PBXNativeTarget "BlendingCultures-After" */;
+			buildPhases = (
+				D27320481C8B102700E8E5E9 /* Sources */,
+				D27320491C8B102700E8E5E9 /* Frameworks */,
+				D273204A1C8B102700E8E5E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BlendingCultures-After";
+			productName = "BlendingCultures-After";
+			productReference = D273204C1C8B102700E8E5E9 /* BlendingCultures-After.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D27320441C8B102700E8E5E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Karuta;
+				TargetAttributes = {
+					D273204B1C8B102700E8E5E9 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = D27320471C8B102700E8E5E9 /* Build configuration list for PBXProject "BlendingCultures-After" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D27320431C8B102700E8E5E9;
+			productRefGroup = D273204D1C8B102700E8E5E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D273204B1C8B102700E8E5E9 /* BlendingCultures-After */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D273204A1C8B102700E8E5E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D273205A1C8B102700E8E5E9 /* LaunchScreen.storyboard in Resources */,
+				D27320571C8B102700E8E5E9 /* Assets.xcassets in Resources */,
+				D27320551C8B102700E8E5E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27320481C8B102700E8E5E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27320521C8B102700E8E5E9 /* ViewController.swift in Sources */,
+				D27320501C8B102700E8E5E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D27320531C8B102700E8E5E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27320541C8B102700E8E5E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D27320581C8B102700E8E5E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D27320591C8B102700E8E5E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D273205C1C8B102700E8E5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D273205D1C8B102700E8E5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D273205F1C8B102700E8E5E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BlendingCultures-After/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karutaapp.BlendingCultures-After";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D27320601C8B102700E8E5E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "BlendingCultures-After/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.karutaapp.BlendingCultures-After";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D27320471C8B102700E8E5E9 /* Build configuration list for PBXProject "BlendingCultures-After" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D273205C1C8B102700E8E5E9 /* Debug */,
+				D273205D1C8B102700E8E5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D273205E1C8B102700E8E5E9 /* Build configuration list for PBXNativeTarget "BlendingCultures-After" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D273205F1C8B102700E8E5E9 /* Debug */,
+				D27320601C8B102700E8E5E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D27320441C8B102700E8E5E9 /* Project object */;
+}
