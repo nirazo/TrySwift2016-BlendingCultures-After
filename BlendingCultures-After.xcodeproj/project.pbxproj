@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		D27320501C8B102700E8E5E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273204F1C8B102700E8E5E9 /* AppDelegate.swift */; };
-		D27320521C8B102700E8E5E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27320511C8B102700E8E5E9 /* ViewController.swift */; };
-		D27320551C8B102700E8E5E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27320531C8B102700E8E5E9 /* Main.storyboard */; };
 		D27320571C8B102700E8E5E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D27320561C8B102700E8E5E9 /* Assets.xcassets */; };
 		D273205A1C8B102700E8E5E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D27320581C8B102700E8E5E9 /* LaunchScreen.storyboard */; };
+		D27320661C8B109E00E8E5E9 /* HandVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27320651C8B109E00E8E5E9 /* HandVC.swift */; };
+		D27320691C8B10AA00E8E5E9 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27320671C8B10AA00E8E5E9 /* Card.swift */; };
+		D273206A1C8B10AA00E8E5E9 /* Hand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27320681C8B10AA00E8E5E9 /* Hand.swift */; };
+		D273206C1C8B10B300E8E5E9 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273206B1C8B10B300E8E5E9 /* CardCell.swift */; };
+		D273206E1C8B1C0600E8E5E9 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273206D1C8B1C0600E8E5E9 /* DataSource.swift */; };
+		D27320701C8B1EA900E8E5E9 /* SourceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D273206F1C8B1EA900E8E5E9 /* SourceType.swift */; };
+		D27320751C8B207300E8E5E9 /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27320741C8B207300E8E5E9 /* DataType.swift */; };
+		D27320771C8B37DE00E8E5E9 /* HandDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27320761C8B37DE00E8E5E9 /* HandDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D273204C1C8B102700E8E5E9 /* BlendingCultures-After.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BlendingCultures-After.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D273204F1C8B102700E8E5E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D27320511C8B102700E8E5E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D27320541C8B102700E8E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D27320561C8B102700E8E5E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D27320591C8B102700E8E5E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D273205B1C8B102700E8E5E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D27320651C8B109E00E8E5E9 /* HandVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HandVC.swift; path = Classes/Controllers/HandVC.swift; sourceTree = "<group>"; };
+		D27320671C8B10AA00E8E5E9 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Card.swift; path = Classes/Models/Card.swift; sourceTree = "<group>"; };
+		D27320681C8B10AA00E8E5E9 /* Hand.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hand.swift; path = Classes/Models/Hand.swift; sourceTree = "<group>"; };
+		D273206B1C8B10B300E8E5E9 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardCell.swift; path = Classes/Views/CardCell.swift; sourceTree = "<group>"; };
+		D273206D1C8B1C0600E8E5E9 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = Classes/Models/DataSource.swift; sourceTree = "<group>"; };
+		D273206F1C8B1EA900E8E5E9 /* SourceType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SourceType.swift; path = Classes/Models/SourceType.swift; sourceTree = "<group>"; };
+		D27320741C8B207300E8E5E9 /* DataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataType.swift; path = Classes/Models/DataType.swift; sourceTree = "<group>"; };
+		D27320761C8B37DE00E8E5E9 /* HandDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HandDataSource.swift; path = Classes/Models/HandDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +67,51 @@
 			isa = PBXGroup;
 			children = (
 				D273204F1C8B102700E8E5E9 /* AppDelegate.swift */,
-				D27320511C8B102700E8E5E9 /* ViewController.swift */,
-				D27320531C8B102700E8E5E9 /* Main.storyboard */,
+				D27320611C8B104F00E8E5E9 /* Classes */,
 				D27320561C8B102700E8E5E9 /* Assets.xcassets */,
 				D27320581C8B102700E8E5E9 /* LaunchScreen.storyboard */,
 				D273205B1C8B102700E8E5E9 /* Info.plist */,
 			);
 			path = "BlendingCultures-After";
+			sourceTree = "<group>";
+		};
+		D27320611C8B104F00E8E5E9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D27320641C8B106600E8E5E9 /* Views */,
+				D27320631C8B106100E8E5E9 /* Models */,
+				D27320621C8B105800E8E5E9 /* Controllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		D27320621C8B105800E8E5E9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D27320651C8B109E00E8E5E9 /* HandVC.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D27320631C8B106100E8E5E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D27320671C8B10AA00E8E5E9 /* Card.swift */,
+				D27320681C8B10AA00E8E5E9 /* Hand.swift */,
+				D27320741C8B207300E8E5E9 /* DataType.swift */,
+				D273206D1C8B1C0600E8E5E9 /* DataSource.swift */,
+				D27320761C8B37DE00E8E5E9 /* HandDataSource.swift */,
+				D273206F1C8B1EA900E8E5E9 /* SourceType.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D27320641C8B106600E8E5E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D273206B1C8B10B300E8E5E9 /* CardCell.swift */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +174,6 @@
 			files = (
 				D273205A1C8B102700E8E5E9 /* LaunchScreen.storyboard in Resources */,
 				D27320571C8B102700E8E5E9 /* Assets.xcassets in Resources */,
-				D27320551C8B102700E8E5E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +184,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D27320521C8B102700E8E5E9 /* ViewController.swift in Sources */,
+				D273206E1C8B1C0600E8E5E9 /* DataSource.swift in Sources */,
+				D273206C1C8B10B300E8E5E9 /* CardCell.swift in Sources */,
+				D273206A1C8B10AA00E8E5E9 /* Hand.swift in Sources */,
+				D27320771C8B37DE00E8E5E9 /* HandDataSource.swift in Sources */,
+				D27320701C8B1EA900E8E5E9 /* SourceType.swift in Sources */,
 				D27320501C8B102700E8E5E9 /* AppDelegate.swift in Sources */,
+				D27320751C8B207300E8E5E9 /* DataType.swift in Sources */,
+				D27320691C8B10AA00E8E5E9 /* Card.swift in Sources */,
+				D27320661C8B109E00E8E5E9 /* HandVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D27320531C8B102700E8E5E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D27320541C8B102700E8E5E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D27320581C8B102700E8E5E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
